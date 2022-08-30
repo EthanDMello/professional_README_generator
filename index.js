@@ -35,7 +35,23 @@ const questions = () => {
       {
         type: "input",
         name: "instructions",
-        message: "Please enter your usage contribution test instructions:",
+        message: "Please enter your usage test instructions:",
+      },
+      {
+        type: "input",
+        name: "username",
+        message: "Please enter your Github username:",
+      },
+      {
+        type: "input",
+        name: "email",
+        message: "Please enter your email:",
+      },
+      {
+        type: "list",
+        name: "license",
+        message: "Select license type:",
+        choices: ["1", "2", "3"],
       },
     ])
     .then((response) => {
