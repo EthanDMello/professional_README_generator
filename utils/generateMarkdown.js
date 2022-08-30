@@ -22,9 +22,9 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#Contributing)
-- [Test](#Tests)
-- [Questions](#Questions)
+- [Contributing](#contributing)
+- [Test](#tests)
+- [Questions](#questions)
 
 ## Installation
 
@@ -48,8 +48,9 @@ ${data.instructions}
 
 ## Questions
 
+[${data.username}](https://github.com/${data.username})\n
+Contact me on my email for questions: ${data.email}
 `;
 }
 
-// ${data.instructions}
 module.exports = generateMarkdown;
