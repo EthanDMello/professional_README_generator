@@ -9,12 +9,12 @@ const questions = () => {
     .prompt([
       {
         type: "input",
-        name: "Title",
+        name: "title",
         message: "What is your project title?",
       },
       {
         type: "input",
-        name: "Description",
+        name: "description",
         message: "Please enter your description:",
       },
       {
@@ -39,6 +39,8 @@ const questions = () => {
       },
     ])
     .then((response) => {
+      //   console.log(response);
+      writeToFile(generateMarkdown(response));
       return response;
     });
 };
@@ -46,7 +48,7 @@ const questions = () => {
 // TODO: Create a function to write README file
 function writeToFile(data) {
   newReadMe = "Hi";
-  fs.writeFile("README.md", newReadMe, (err) =>
+  fs.writeFile("README.md", data, (err) =>
     err ? console.error(err) : console.log("New README made!")
   );
 }
@@ -54,8 +56,7 @@ function writeToFile(data) {
 // TODO: Create a function to initialize app
 function init() {
   // call questions
-  // call generate markdown
-  // call write to file
+  questions();
 }
 
 // Function call to initialize app
