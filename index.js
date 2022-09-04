@@ -51,7 +51,7 @@ const questions = () => {
         type: "list",
         name: "license",
         message: "Select license type:",
-        choices: ["1", "2", "3"],
+        choices: ["MIT", "Apache"],
       },
     ])
     .then((response) => {
