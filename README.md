@@ -1,59 +1,14 @@
-# New Project!                          ![MIT](https://img.shields.io/apm/l/vim-mode?style=for-the-badge)
+# A professional README generator
 
-## Description
-A project that makes READMEs
+Complete homework portfolio project with HTML, CSS and Javascript files to fit the assessment criteria.
+A README generator that makes a structured README with external links
 
-## Table of Contents
+Made by Ethan D'Mello
+Github: https://github.com/EthanDMello
+LinkedIn: https://www.linkedin.com/in/ethan-d-mello-0351ab21b/
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Test](#tests)
-- [Questions](#questions)
+Link to deployed application:
+**No HTML to deploy.**
 
-## Installation
-
-downlaod from Github
-
-## Usage
-
-use however
-
-## License
-
-MIT License
-
-    Copyright (c) 2022 EthanDmello
-    
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-    
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-    
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
-
-## Contributing
-
-add how much you like
-
-## Tests
-
-Run idex.js
-
-## Questions
-
-[Github: EthanDmello](https://github.com/EthanDmello)
-
-Contact me on my email for questions: e.n.dmello@live.com
+Application screenshot:
+![developed application screenshot](./Assets/Images/DeployedApp.png)
